@@ -8,6 +8,12 @@ if ($_SERVER['HTTPS'] == "on") {
 $_SESSION['url'] = $_POST['url'];
 ?>
 
+
+
+<ul>
+	<li><?php echo $_SESSION['url']; ?></li>
+</ul>
+
     <!DOCTYPE html>
     <html>
     <head>
