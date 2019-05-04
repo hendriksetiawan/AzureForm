@@ -128,6 +128,6 @@ else
     <button type="submit">Press to clean up all resources created by this sample</button>
 </form>
 
-<form action="phpQS.php" method="post">
+<form action="index.php" method="post">
 	<input type="submit" name="submit" value="Upload Image">
 </form>
