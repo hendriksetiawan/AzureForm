@@ -5,7 +5,7 @@ if ($_SERVER['HTTPS'] == "on") {
     exit;
 } 
 
-$_SESSION['url'] = $_POST['url'];
+$_SESSION['url'] = $_REQUEST['url'];
 ?>
 
 
