@@ -1,5 +1,11 @@
 <?php
 
+if ($_SERVER['HTTPS'] == "on") {
+    $url = "http://". $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+    header("Location: $url");
+    exit;
+} 
+
 require_once 'vendor/autoload.php';
 require_once "./random_string.php";
 
